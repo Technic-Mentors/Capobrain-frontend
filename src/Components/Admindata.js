@@ -58,6 +58,7 @@ export default function Admindata() {
         </button>
       </Link>
       <Link className="text-white" to="allcategory">
+        
         <button
           className="btn w-100 text-dark"
           type="button"
