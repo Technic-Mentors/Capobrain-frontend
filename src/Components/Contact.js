@@ -121,7 +121,9 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h4 style={{ color: "#133D78" }}>Address</h4>
-                  <p style={{color:"black"}}>Mumtaz Market, GT Road, Gujranwala</p>
+                  <p style={{ color: "black" }}>
+                    Mumtaz Market, GT Road, Gujranwala
+                  </p>
                 </div>
               </div>
             </div>
@@ -147,7 +149,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h4 style={{ color: "#133D78" }}>Call Us</h4>
-                  <p style={{color:"black"}}>+923 111 122 144</p>
+                  <p style={{ color: "black" }}>+923 111 122 144</p>
                 </div>
               </div>
             </div>
@@ -173,7 +175,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h4 style={{ color: "#133D78" }}>Email</h4>
-                  <p style={{color:"black"}}>info@capobrain.com</p>
+                  <p style={{ color: "black" }}>info@capobrain.com</p>
                 </div>
               </div>
             </div>
@@ -200,7 +202,7 @@ export default function Contact() {
               </div>
             </div>
             <div
-              className="col-md-6 pt-3 pb-3"
+              className="col-md-6 contact-foram pt-3 pb-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
@@ -261,13 +263,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      {/* <!-- Contact End --> */}
-      {/* <div
-        onClick={MoveToTop}
-        className="btn btn1 btn-square rounded-circle back-to-top"
-      >
-        <i className="fa fa-arrow-up text-white"></i>
-      </div> */}
     </div>
   );
 }

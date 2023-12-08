@@ -10,7 +10,7 @@ export default function Signup() {
   const handlesubmit = async (e) => {
     e.preventDefault();
     const { email, password } = credentials;
-    const res = await fetch("http://localhost:8001/api/auth/createadmin", {
+    const res = await fetch("https://capobrain.vercel.app/api/auth/createadmin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -33,13 +33,16 @@ export default function Signup() {
   return (
     <div
     style={{ backgroundImage: `url(${"img/b1.jpg"})`}}
-      className="background-img5"
+      className="background-img10"
     >
-      <div className="color-overlay5">
+      <div className="color-overlay10">
           <div className="d-flex justify-content-end">
         <Link to="/login">  <button className="btn btn-primary mx-4 mt-3">Log In</button></Link>
           </div>
-        <div className="container pt-5 pb-5" style={{ width: "380px" }}>
+        <div className="container" style={{ marginTop:"100px" }}>
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-4">
+              
           <form onSubmit={handlesubmit}>
             <div id="number" className="text-danger text-center"></div>
 
@@ -84,6 +87,9 @@ export default function Signup() {
               Sign Up
             </button>
           </form>
+          
+          </div>
+          </div>
         </div>
       </div>
     </div>

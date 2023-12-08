@@ -15,7 +15,7 @@ const [password, setPassword] = useState({
 const modalRef = useRef();
 
   const postNumbers = async()=>{
-await fetch("http://localhost:8001/api/auth/postsCount", {
+await fetch("https://capobrain.vercel.app/api/auth/postsCount", {
   method: "GET",
   headers:{
     "Content-Type": "application/json"
@@ -26,7 +26,7 @@ await fetch("http://localhost:8001/api/auth/postsCount", {
   }
 
   const categoryNumbers = async()=>{
-await fetch("http://localhost:8001/api/auth/categoryCount", {
+await fetch("https://capobrain.vercel.app/api/auth/categoryCount", {
   method: "GET",
   headers:{
     "Content-Type": "application/json"
@@ -71,7 +71,7 @@ const pasError = document.getElementById("confirmpas");
       return;
     }
 
-    const res = await fetch("http://localhost:8001/api/auth/changepassword", {
+    const res = await fetch("https://capobrain.vercel.app/api/auth/changepassword", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

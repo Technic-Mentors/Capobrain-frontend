@@ -54,7 +54,7 @@ export default function Testimonial() {
             <div className="testimonial-item text-center">
               <img
                 className="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                src="img/testimonial-1.jpg"
+                src="img/image2.jpg"
                 style={{ width: "100px", height: "100px" }}
                 alt="client"
               />
@@ -64,14 +64,14 @@ export default function Testimonial() {
                   manage student information, schedule classes, and track
                   attendance without any hassle.
                 </p>
-                <h5 className="mb-1">Shehryar Shahid</h5>
-                <span className="fst-italic">Principal (Scholar's School)</span>
+                <h5 className="mb-1">Nimra Ihsan </h5>
+                <span className="fst-italic">Manager HR (The Educators)</span>
               </div>
             </div>
             <div className="testimonial-item text-center">
               <img
                 className="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                src="img/testimonial-2.jpg"
+                src="img/image1.webp"
                 style={{ width: "100px", height: "100px" }}
                 alt="client"
               />
@@ -81,14 +81,14 @@ export default function Testimonial() {
                   administrative tasks. It has made our work easier, more
                   efficient, and allowed us to focus on student success.
                 </p>
-                <h5 className="mb-1">Danish Mirza</h5>
-                <span className="fst-italic">CEO (British School)</span>
+                <h5 className="mb-1">Asim Rasool</h5>
+                <span className="fst-italic">Director (Apex College)</span>
               </div>
             </div>
             <div className="testimonial-item text-center">
               <img
                 className="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                src="img/testimonial-3.jpg"
+                src="img/sikandar.webp"
                 style={{ width: "100px", height: "100px" }}
                 alt="client"
               />
@@ -98,16 +98,16 @@ export default function Testimonial() {
                   tasks and communicate with parents, creating a more
                   collaborative learnign environment.
                 </p>
-                <h5 className="mb-1">Hadeed Ul Hassan</h5>
+                <h5 className="mb-1">Sikandar Nawaz Cheema</h5>
                 <span className="fst-italic">
-                  Voice Principle (Crescent School)
+                Principal (Falcon Central School)
                 </span>
               </div>
             </div>
             <div className="testimonial-item text-center">
               <img
                 className="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
-                src="img/testimonial-4.jpg"
+                src="img/Faizan MInhas.webp"
                 style={{ width: "100px", height: "100px" }}
                 alt="client"
               />
@@ -117,9 +117,9 @@ export default function Testimonial() {
                   stronger relationships, leading to parents engagement and
                   involvement in child's education.
                 </p>
-                <h5 className="mb-1">Usama Munir</h5>
+                <h5 className="mb-1">Faizan Minhas</h5>
                 <span className="fst-italic">
-                  Director (Kid's Gramer School)
+                General Manager (Dar e Arqam Schools)
                 </span>
               </div>
             </div>

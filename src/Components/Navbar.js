@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import navLogo from "../img/web logo.png"
 
 export default function Navbar() {
   const [isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
@@ -12,19 +13,17 @@ export default function Navbar() {
         }
       }
     }
-
     document.body.addEventListener('click',handleNav)
     return ()=>{
       document.body.removeEventListener('click',handleNav)
     }
-
   },[isNavbarCollapsed])
 
   const navbar = [
     { path: "/", text: "Home" },
     { path: "/about", text: "About" },
     { path: "/features", text: "Features" },
-    { path: "/manual", text: "User Manual" },
+    { path: "/user-manual", text: "User Manual" },
     { path: "/blog", text: "Blog" },
     { path: "/contact", text: "Contact" },
   ];
@@ -53,7 +52,6 @@ export default function Navbar() {
     return null;
   }
 
-  
   return (
     <div>
       {/* Navbar Start */}
@@ -63,7 +61,7 @@ export default function Navbar() {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
-              src="img/web logo.png"
+              src={navLogo}
               style={{ maxWidth: "14rem" }}
               alt="school management software"
             />

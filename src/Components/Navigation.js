@@ -100,7 +100,9 @@ function Navigation() {
                     style={{ textDecoration: "none", color: "black" }}
                     onClick={() => closeNavbar(link.to)}
                   >
+                    <button className="btn text-white">
                     {link.label}
+                    </button>
                   </Link>
                 </li>
               ))}

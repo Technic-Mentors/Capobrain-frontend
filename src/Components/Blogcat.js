@@ -7,7 +7,7 @@ export default function Blogcat() {
     const [posts,setPosts] = useState({})
     useEffect(() => {
         const postData = async () => {
-          await fetch(`http://localhost:8001/api/auth/getpost/${postSlug}`, {
+          await fetch(`https://capobrain.vercel.app/api/auth/getpost/${postSlug}`, {
             method: "GET",
           })
             .then((res) => res.json())
@@ -33,8 +33,8 @@ export default function Blogcat() {
           </div>
         </div>
       </div>
-<div className="container">
-      <div className='mt-5' dangerouslySetInnerHTML={sanitizedContent} style={{textAlign:"justify"}}></div>
+<div className="container blog-container">
+      <div className='mt-5' dangerouslySetInnerHTML={sanitizedContent}></div>
       </div>
     </div>
   )

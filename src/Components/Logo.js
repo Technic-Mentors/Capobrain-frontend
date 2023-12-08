@@ -25,7 +25,6 @@ export default function Logo() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
 
   const settings = {
     autoplay: true,
@@ -33,18 +32,17 @@ export default function Logo() {
     dots: showDots,
     speed: 500,
     slidesToShow: 1,
-  slidesToScroll: 1,
+    slidesToScroll: 1,
     arrows: false,
     appendDots: (dots) => (
-      <ul style={{ display: 'flex', justifyContent: 'center' }}>
+      <ul style={{ display: "flex", justifyContent: "center" }}>
         {dots
           .filter((dot, index) => index < 6)
           .map((dot, index) => (
-            <li key={index} style={{ listStyle: 'none', margin: '0 5px' }}>
+            <li key={index} style={{ listStyle: "none", margin: "0 5px" }}>
               {dot}
             </li>
-          ))
-        }
+          ))}
       </ul>
     ),
   };
@@ -53,20 +51,18 @@ export default function Logo() {
       <div>
         <div
           className="background-img3"
-          style={{ backgroundImage: `url(${"img/b1.jpg"})`}}
+          style={{ backgroundImage: `url(${"img/b1.jpg"})` }}
         >
           <div className="color-overlay3">
             <div className="container logo-container py-5">
               <div className="row d-flex align-items-center justify-content-center justify-content-between">
                 <div className="col-md-3 col-10 mt-4 logo-bg">
-                  
                   <Slider className="custom-slider" {...settings}>
                     <img
                       className="mt-3 client-img p-5"
                       src="img/client17.webp"
                       alt="Client Logo"
                     />{" "}
-                    
                     <img
                       className="mt-2 client-img p-5"
                       src="img/client15.webp"
@@ -112,13 +108,10 @@ export default function Logo() {
                       src="img/client2.webp"
                       alt="Client Logo"
                     />
-                    
                   </Slider>
                 </div>
                 <div className="col-md-8 col-12 logo-text">
-                  <h1
-                    className="mb-4 text-white"
-                  >
+                  <h1 className="mb-4 text-white">
                     Our <span style={{ color: "#FAC400" }}>Trusted</span>{" "}
                     Clients
                   </h1>
@@ -128,7 +121,17 @@ export default function Logo() {
                     data-aos-easing="ease-in-out"
                     style={{ textAlign: "justify", color: "white" }}
                   >
-                    Capobrain takes pride in serving diverse clients, specializing in educational institutions and management solutions. Our digital tools empower schools by automating administrative tasks, enhancing communication, and streamlining processes. We understand the unique challenges in today's digital age and are dedicated to revolutionizing school management. Clients experience the benefits of our commitment, including a complete accounting software for schools, easing fee collection, and streamlining salary payments. Capobrain's online school software offers cutting-edge AI features for any educational institute.
+                    Capobrain takes pride in serving diverse clients,
+                    specializing in educational institutions and management
+                    solutions. Our digital tools empower schools by automating
+                    administrative tasks, enhancing communication, and
+                    streamlining processes. We understand the unique challenges
+                    in today's digital age and are dedicated to revolutionizing
+                    school management. Clients experience the benefits of our
+                    commitment, including a complete accounting software for
+                    schools, easing fee collection, and streamlining salary
+                    payments. Capobrain's online school software offers
+                    cutting-edge AI features for any educational institute.
                     <a
                       target="blank"
                       href="https://technicmentors.com/"

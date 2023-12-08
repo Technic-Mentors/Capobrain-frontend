@@ -80,7 +80,7 @@ export default function Blogcategory() {
     formData.append("content", editorHtml);
     formData.append("category", category);
     formData.append("slug", slug);
-    await fetch("http://localhost:8001/api/auth/createpost", {
+    await fetch("https://capobrain.vercel.app/api/auth/createpost", {
       method: "POST",
       body: formData,
     });
@@ -105,7 +105,7 @@ export default function Blogcategory() {
 
   const Getcategory = async () => {
     await fetch(
-      "http://localhost:8001/api/auth/getcategory",
+      "https://capobrain.vercel.app/api/auth/getcategory",
       {
         method: "GET",
       }
@@ -149,7 +149,7 @@ export default function Blogcategory() {
       return;
     }
 
-    const res = await fetch("http://localhost:8001/api/auth/changepassword", {
+    const res = await fetch("https://capobrain.vercel.app/api/auth/changepassword", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

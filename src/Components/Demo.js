@@ -131,7 +131,7 @@ export default function Demo() {
           </div>
         </div>
       </div>
-      <div className="background-img3 mt-3">
+      <div className="background-img3">
         <div style={{ backgroundColor: "rgb(246 249 255)" }}>
           <div className="container">
             <div>
@@ -144,7 +144,11 @@ export default function Demo() {
                   </p>
                   Demo Link :{" "}
                   <a
-                    style={{ textDecoration: "underline", color: "#FAC400" }}
+                    style={{
+                      textDecoration: "underline",
+                      color: "#FAC400",
+                      fontSize: "20px",
+                    }}
                     href="https://demo.capobrain.com/"
                     target="blank"
                   >
@@ -154,27 +158,26 @@ export default function Demo() {
                   <h4 className="mt-2">Demo Credentials</h4>
                   <div className="row">
                     <div className="col-md-5">
-                    <h5 style={{ color: "#FAC400" }}>School User</h5>
-                  <p>Username: CAPOUSER</p>
-                  <p>Password: 12345678</p>
+                      <h5 style={{ color: "#FAC400" }}>School User</h5>
+                      <p>Username: CAPOUSER</p>
+                      <p>Password: 12345678</p>
                     </div>
                     <div className="col-md-5">
-                    <h5 style={{ color: "#FAC400" }}>Student Login</h5>
-                  <p>Username: CAPO0923S001</p>
-                  <p>Password: 12345678</p>
+                      <h5 style={{ color: "#FAC400" }}>Student Login</h5>
+                      <p>Username: CAPO0923S001</p>
+                      <p>Password: 12345678</p>
                     </div>
                   </div>
-                  
                   <div className="row">
                     <div className="col-md-5">
-                    <h5 style={{ color: "#FAC400" }}>Teacher Login</h5>
-                  <p>Username: CAPO0923T001</p>
-                  <p>Password: 12345678</p>
+                      <h5 style={{ color: "#FAC400" }}>Teacher Login</h5>
+                      <p>Username: CAPO0923T001</p>
+                      <p>Password: 12345678</p>
                     </div>
                     <div className="col-md-5">
-                    <h5 style={{ color: "#FAC400" }}>Parents Login</h5>
-                  <p>Username: CAPO0923P001</p>
-                  <p>Password: 12345678</p>
+                      <h5 style={{ color: "#FAC400" }}>Parents Login</h5>
+                      <p>Username: CAPO0923P001</p>
+                      <p>Password: 12345678</p>
                     </div>
                   </div>
                 </div>
@@ -236,10 +239,10 @@ export default function Demo() {
                       />
                       <div id="messageI" style={{ color: "red" }}></div>
                       <div className="text-start d-flex justify-content-center mt-5">
-                      <button className="btn btn1" type="submit">
-                        Send Request
-                      </button>
-                    </div>
+                        <button className="btn btn1" type="submit">
+                          Send Request
+                        </button>
+                      </div>
                     </form>
                   </div>
                 </div>

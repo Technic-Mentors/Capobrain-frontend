@@ -19,7 +19,7 @@ export default function Allposts() {
   });
   const modalRef = useRef();
   const Getallposts = async () => {
-    await fetch("http://localhost:8001/api/auth/getallposts", {
+    await fetch("https://capobrain.vercel.app/api/auth/getallposts", {
       method: "GET",
     })
       .then((res) => res.json())
@@ -33,7 +33,7 @@ export default function Allposts() {
 
   const viewPosts = async (id) => {
     await fetch(
-      `http://localhost:8001/api/auth/getposts/${id}`,
+      `https://capobrain.vercel.app/api/auth/getposts/${id}`,
       {
         method: "GET",
       }
@@ -63,7 +63,7 @@ export default function Allposts() {
 
     if (isConfirmed) {
       await fetch(
-        `http://localhost:8001/api/auth/delposts/${id}`,
+        `https://capobrain.vercel.app/api/auth/delposts/${id}`,
         {
           method: "DELETE",
         }
@@ -73,7 +73,7 @@ export default function Allposts() {
   };
 
   const editPosts = async (id) => {
-    await fetch(`http://localhost:8001/api/auth/getposts/${id}`, {
+    await fetch(`https://capobrain.vercel.app/api/auth/getposts/${id}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -86,7 +86,7 @@ export default function Allposts() {
     setEditPost({ ...editPost, [e.target.name]: e.target.value });
   };
   const updatePost = async () => {
-    await fetch(`http://localhost:8001/api/auth/editposts/${postId}`, {
+    await fetch(`https://capobrain.vercel.app/api/auth/editposts/${postId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -109,7 +109,7 @@ export default function Allposts() {
 
   const Getcategory = async () => {
     await fetch(
-      "http://localhost:8001/api/auth/getcategory",
+      "https://capobrain.vercel.app/api/auth/getcategory",
       {
         method: "GET",
       }
@@ -158,7 +158,7 @@ export default function Allposts() {
       return;
     }
 
-    const res = await fetch("http://localhost:8001/api/auth/changepassword", {
+    const res = await fetch("https://capobrain.vercel.app/api/auth/changepassword", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -265,7 +265,7 @@ export default function Allposts() {
                   <i
                     class="fa-solid fa-eye me-1"
                     data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop"
+                    data-bs-target="#staticBackdrop1"
                     style={{ color: "blue" }}
                     onClick={() => viewPosts(posts._id)}
                   ></i>
@@ -290,7 +290,7 @@ export default function Allposts() {
       {/* View Modal */}
       <div
         className="modal fade"
-        id="staticBackdrop"
+        id="staticBackdrop1"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
         tabindex="-1"

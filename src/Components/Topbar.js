@@ -27,7 +27,7 @@ export default function Topbar() {
                 
           </div>
           <div className="col-md-4 text-center text-lg-end py-1">
-            <div className="position-relative d-inline-flex align-items-center top-shape px-5 py-1">
+            <div className="position-relative d-inline-flex align-items-center py-1" style={{marginRight:"9%"}}>
              
               <a
                 href="https://www.facebook.com/CapoBrainOfficial"
