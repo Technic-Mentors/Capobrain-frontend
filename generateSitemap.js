@@ -3,13 +3,12 @@ const fs = require('fs');
 // List your React app routes here
 const routes = [
   '/',
-  '/#/about',
-  '/#/features',
-  '/#/user-manual',
-  '/#/blog',
-  '/#/contact',
-  '/#/demo',
-  // Add more routes as needed
+  '/about',
+  '/features',
+  '/user-manual',
+  '/blog',
+  '/contact',
+  '/demo',
 ];
 
 function generateXml(urls) {

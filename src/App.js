@@ -167,7 +167,6 @@ import Addcategory from "./Components/Addcategory";
 import Allcategory from "./Components/Allcategory";
 import Board from "./Components/Board";
 import Login from "./Components/Login";
-import Car from "./Components/Car";
 
 function App() {
   return (
@@ -178,8 +177,6 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/c" element={<Car/>} />
-          
           <Route path="/about" element={<About />} />
           <Route path="/features" element={<FeaturePage />} />
           <Route path="/contact" element={<Contact />} />
