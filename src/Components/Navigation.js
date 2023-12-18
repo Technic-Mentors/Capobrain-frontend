@@ -122,27 +122,27 @@ title: (
 ),
 links: [
 {
-  to: "visitor",
+  to: "visitors-meeting",
   label: "Visitors Meeting"
 },
 {
-  to: "pcall",
+  to: "phone-call-log",
   label: "Phone Call Log"
 },
 {
-  to: "dispatch",
+  to: "postal-dispatch",
   label: "Postal Dispatch"
 },
 {
-  to: "precieve",
+  to: "postal-recieve",
   label: "Postal Recieve"
 },
 {
-  to: "complains",
+  to: "online-complains-list",
   label: "Online Complains List"
 },
 {
-  to: "frontoffice",
+  to: "configure-front-office",
   label: "Configure Front Office"
 },
 ]
@@ -156,27 +156,27 @@ title: (
 ),
 links: [
 {
-  to: "teaching",
+  to: "teaching-staff",
   label: "Teaching Staff"
 },
 {
-  to: "tstaff",
+  to: "non-teaching-staff",
   label: "Non Teaching Staff"
 },
 {
-  to: "stodos",
+  to: "staff-todos",
   label: "Staff Todo's"
 },
 {
-  to: "swithdraw",
+  to: "staff-withdraw",
   label: "Staff Withdraw"
 },
 {
-  to: "sreview",
+  to: "staff-review",
   label: "Staff Review"
 },
 {
-  to: "fedlist",
+  to: "feedback-list",
   label: "Feedback List"
 },
 ]
@@ -190,39 +190,39 @@ title: (
 ),
 links: [
 {
-  to: "newadd",
+  to: "new-admission",
   label: "New Admission"
 },
 {
-  to: "alist",
+  to: "students-list",
   label: "Students List"
 },
 {
-  to: "onlineadd",
+  to: "online-admissions",
   label: "Online Admissions"
 },
 {
-  to: "frecord",
+  to: "family-record",
   label: "Family Record"
 },
 {
-  to: "prostudents",
+  to: "promote-students",
   label: "Promote Students"
 },
 {
-  to: "withstudents",
+  to: "withdraw-students",
   label: "Withdraw Students"
 },
 {
-  to: "passstudents",
+  to: "passout-students",
   label: "Passout Students"
 },
 {
-  to: "studentreview",
+  to: "students-review",
   label: "Students Review"
 },
 {
-  to: "feedbackrecord",
+  to: "feedback-record",
   label: "Feedback Record"
 },
 ]
@@ -236,15 +236,15 @@ title: (
 ),
 links: [
 {
-  to: "sattendence",
+  to: "student-attendance",
   label: "Student Attendance"
 },
 {
-  to: "staffatt",
+  to: "staff-attendance",
   label: "Staff Attendance"
 },
 {
-  to: "leave",
+  to: "leave-request",
   label: "Leave Request"
 }
 ]
@@ -262,19 +262,19 @@ links: [
   label: "Inventory"
 },
 {
-  to: "purchseinven",
+  to: "purchase-inventory",
   label: "Purchase Inventory"
 },
 {
-  to: "purchaseli",
+  to: "purchase-list",
   label: "Purchase List"
 },
 {
-  to: "issue",
+  to: "issue-inventory",
   label: "Issue Invetory"
 },
 {
-  to: "invoiceli",
+  to: "invoice-list",
   label: "Invoice List"
 },
 {
@@ -292,27 +292,27 @@ title: (
 ),
 links: [
 {
-  to: "recievefee",
+  to: "recieve-fee",
   label: "Recieve Fee"
 },
 {
-  to: "refundpay",
+  to: "refund-payment",
   label: "Refund Payment"
 },
 {
-  to: "updatefee",
+  to: "update-fee",
   label: "Update Fee"
 },
 {
-  to: "updatefeeli",
+  to: "update-fee-list",
   label: "Update Fee List"
 },
 {
-  to: "scholorship",
+  to: "scholarship",
   label: "Scholarship"
 },
 {
-  to: "management",
+  to: "fine-management",
   label: "Fine Management"
 },
 {
@@ -320,15 +320,15 @@ links: [
   label: "Discounts"
 },
 {
-  to: "staccadj",
+  to: "student-account-adjust",
   label: "Student Account Adjust"
 },
 {
-  to: "feecommitli",
+  to: "fee-comitment-list",
   label: "Fee Comitment List"
 },
 {
-  to: "defaultstu",
+  to: "default-students",
   label: "Default Students"
 },
 ]
@@ -342,19 +342,19 @@ title: (
 ),
 links: [
 {
-  to: "calender1",
+  to: "calender",
   label: "Calender"
 },
 {
-  to: "salarycycle",
+  to: "salary-cycle",
   label: "Salary Cycle"
 },
 {
-  to: "generatevouch",
+  to: "generate-vouchers",
   label: "Generate Vouchers"
 },
 {
-  to: "printvouch",
+  to: "print-vouchers",
   label: "Print Vouchers"
 }
 ]
@@ -368,27 +368,27 @@ title: (
 ),
 links: [
 {
-  to: "withdrawamo",
+  to: "withdraw-amount",
   label: "Withdraw Amount"
 },
 {
-  to: "student",
+  to: "students-account",
   label: "Students Account"
 },
 {
-  to: "staff",
+  to: "staff-account",
   label: "Staff Account"
 },
 {
-  to: "supplieracc",
+  to: "supplier-account",
   label: "Supplier Account"
 },
 {
-  to: "familywise",
+  to: "family-wise-account",
   label: "Family Wise Account"
 },
 {
-  to: "salarydeduct",
+  to: "salary-deduction",
   label: "Salary Deduction"
 },
 ]
@@ -402,15 +402,15 @@ title: (
 ),
 links: [
 {
-  to: "configexams",
+  to: "configure-exams",
   label: "Configure Exams"
 },
 {
-  to: "configpapers",
+  to: "configure-papers",
   label: "Configure Papers"
 },
 {
-  to: "datesheet",
+  to: "date-sheet",
   label: "Date Sheet"
 }
 ]
@@ -424,15 +424,15 @@ title: (
 ),
 links: [
 {
-  to: "addresult",
+  to: "add-result",
   label: "Add Result"
 },
 {
-  to: "subjectwise",
+  to: "subject-wise-result",
   label: "Subject Wise Result"
 },
 {
-  to: "resultlist",
+  to: "result-list",
   label: "Result List"
 }
 ]
@@ -446,23 +446,23 @@ title: (
 ),
 links: [
 {
-  to: "configcert",
+  to: "configure-certificate",
   label: "Configure Certificate"
 },
 {
-  to: "studntcerti",
+  to: "student-certificate",
   label: "Student Certificate"
 },
 {
-  to: "staffcerti",
+  to: "staff-certificate",
   label: "Staff Certificate"
 },
 {
-  to: "studentcard",
+  to: "student-id-card",
   label: "Student ID Card"
 },
 {
-  to: "staffcard",
+  to: "staff-id-card",
   label: "Staff ID Card"
 },
 ]
@@ -476,31 +476,31 @@ title: (
 ),
 links: [
 {
-  to: "lesson",
+  to: "lesson-planning",
   label: "Lesson Planning"
 },
 {
-  to: "homework",
+  to: "home-work",
   label: "Home Work"
 },
 {
-  to: "uploadmat",
+  to: "upload-material",
   label: "Upload Material"
 },
 {
-  to: "summerwork",
+  to: "summer-home-work",
   label: "Summer Home Work"
 },
 {
-  to: "homeworkmar",
+  to: "home-work-marking",
   label: "Home Work Marking"
 },
 {
-  to: "homeworkmarli",
+  to: "home-work-marking-list",
   label: "Home Work Marking List"
 },
 {
-  to: "classtimetable",
+  to: "class-time-table",
   label: "Class Time Table"
 },
 ]
@@ -522,7 +522,7 @@ links: [
   label: "Courses"
 },
 {
-  to: "coursecat",
+  to: "course-category",
   label: "Course Category"
 }
 ]
@@ -540,11 +540,11 @@ links: [
   label: "Routes"
 },
 {
-  to: "vehicle",
+  to: "vehicles",
   label: "Vehicles"
 },
 {
-  to: "assignveh",
+  to: "assign-vehicles",
   label: "Assign Vehicles"
 }
 ]
@@ -558,15 +558,15 @@ links: [
       ),
       links: [
         {
-          to: "addexpense",
+          to: "add-expense",
           label: "Add Expense",
         },
         {
-          to: "manageexpense",
+          to: "manage-expense",
           label: "Manage Expense",
         },
         {
-          to: "expencecat",
+          to: "expence-category",
           label: "Expense Category",
         },
       ],
@@ -580,7 +580,7 @@ links: [
       ),
       links: [
         {
-          to: "assettype",
+          to: "asset-type",
           label: "Asset Type",
         },
         {
@@ -634,11 +634,11 @@ links: [
       ),
       links: [
         {
-          to: "questionbank",
+          to: "question-bank",
           label: "Question Bank",
         },
         {
-          to: "classwiseques",
+          to: "class-wise-question",
           label: "Class Wise Question",
         },
       ],
@@ -652,11 +652,11 @@ links: [
       ),
       links: [
         {
-          to: "typesp",
+          to: "sports-type",
           label: "Sports Type",
         },
         {
-          to: "sportsdeta",
+          to: "sports-detail",
           label: "Sports Detail",
         },
       ],
@@ -670,11 +670,11 @@ links: [
       ),
       links: [
         {
-          to: "usersmanage",
+          to: "users",
           label: "Users",
         },
         {
-          to: "rolesmanage",
+          to: "roles",
           label: "Roles",
         },
       ],
@@ -688,11 +688,11 @@ links: [
       ),
       links: [
         {
-          to: "librarybook",
+          to: "library-books",
           label: "Library Books",
         },
         {
-          to: "issuebook",
+          to: "issue-books",
           label: "Issue Books",
         },
       ],
@@ -706,19 +706,19 @@ links: [
       ),
       links: [
         {
-          to: "configchap",
+          to: "configure-chapter",
           label: "Configure Chapter",
         },
         {
-          to: "configtopic",
+          to: "configure-topic",
           label: "Configure Topic",
         },
         {
-          to: "configques",
+          to: "configure-question",
           label: "Configure Qusetion",
         },
         {
-          to: "papergene",
+          to: "paper-generate",
           label: "Paper Generate",
         },
       ],
@@ -736,7 +736,7 @@ links: [
           label: "Events",
         },
         {
-          to: "viewsite",
+          to: "visit-website",
           label: "Visit Website",
         },
         {
@@ -744,7 +744,7 @@ links: [
           label: "Home",
         },
         {
-          to: "aboutus",
+          to: "about-us",
           label: "About Us",
         },
         {
@@ -778,7 +778,7 @@ links: [
           label: "Religion",
         },
         {
-          to: "asignclass",
+          to: "assign-classes",
           label: "Assign Classes",
         },
         {
@@ -790,39 +790,39 @@ links: [
           label: "Subject",
         },
         {
-          to: "assignsub",
+          to: "assign-subject",
           label: "Assign Subject",
         },
         {
-          to: "siblingdic",
+          to: "sibling-discount",
           label: "Sibling Discount",
         },
         {
-          to: "schooltiming",
+          to: "school-timing",
           label: "School Timing",
         },
         {
-          to: "schoolmanage",
+          to: "school-manage",
           label: "School Manage",
         },
         {
-          to: "configschol",
+          to: "configure-scholarship",
           label: "Configure Scholarship",
         },
         {
-          to: "feerecipts",
+          to: "configure-fee-recipients",
           label: "Configure Fee Recipients",
         },
         {
-          to: "accesscontrol",
+          to: "access-control",
           label: "Access Control",
         },
         {
-          to: "configfee",
+          to: "configure-fee",
           label: "Configure Fee",
         },
         {
-          to: "configsalary",
+          to: "configure-salary",
           label: "Configure Salary",
         },
       ],
@@ -836,111 +836,111 @@ links: [
       ),
       links: [
         {
-          to: "stuatt",
+          to: "student-attendnce",
           label: "Student Attendance",
         },
         {
-          to: "stafatt",
+          to: "staff-attendnce",
           label: "Staff Attendance",
         },
         {
-          to: "sreport",
+          to: "students-report",
           label: "Students Report",
         },
         {
-          to: "teacherrep",
+          to: "staff-report",
           label: "Staff Report",
         },
         {
-          to: "staffacc",
+          to: "staff-accounts",
           label: "Staff Accounts",
         },
         {
-          to: "saccounts",
+          to: "student-accounts",
           label: "Student Accounts",
         },
         {
-          to: "srecieve",
+          to: "student-recieveables",
           label: "Student Receiveables",
         },
         {
-          to: "staffrecieve",
+          to: "staff-recieveables",
           label: "Staff Receiveables",
         },
         {
-          to: "ledger",
+          to: "general-ledger",
           label: "General Ledger",
         },
         {
-          to: "feereport",
+          to: "fee-report",
           label: "Fee Report",
         },
         {
-          to: "transfeerep",
+          to: "transport-fee-report",
           label: "Transport Fee Report",
         },
         {
-          to: "inventoryrep",
+          to: "inventory-fee-repport",
           label: "Inventory Fee Report",
         },
         {
-          to: "detailedrep",
+          to: "fee-detailed-report",
           label: "Fee Detailed Report",
         },
         {
-          to: "salarypaid",
+          to: "salary-paid",
           label: "Salary Paid",
         },
         {
-          to: "sfeedback",
+          to: "student-feedback",
           label: "Student Feedback",
         },
         {
-          to: "teacherfedback",
+          to: "teacher-feedback",
           label: "Teacher Feedback",
         },
         {
-          to: "postalreport",
+          to: "postal-report",
           label: "Postal Report",
         },
         {
-          to: "visitorsrep",
+          to: "visitors-report",
           label: "Visitors Report",
         },
         {
-          to: "studentrevrep",
+          to: "student-review-report",
           label: "Student Review Report",
         },
         {
-          to: "staffrevrep",
+          to: "staff-review-report",
           label: "Staff Review Report",
         },
         {
-          to: "leaverep",
+          to: "leave-report",
           label: "Leave Report",
         },
         {
-          to: "inventoryreport",
+          to: "inventory-report",
           label: "Inventory Report",
         },
         {
-          to: "libraryrep",
+          to: "library-report",
           label: "Library Report",
         },
         {
-          to: "expencerep",
+          to: "expense-report",
           label: "Expense Report",
         },
         {
-          to: "daybook",
+          to: "day-book",
           label: "Day Book",
         },
         {
-          to: "pl",
+          to: "profit & loss",
           label: "Profit & Loss",
         },
         {
-          to: "transreport",
+          to: "transreport-report",
           label: "Transport Report",
         },
       ],

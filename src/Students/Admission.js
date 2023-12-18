@@ -18,7 +18,7 @@ Document Format! Image Format Must Be JPG, JPEG, PDF or PNG.</li>
   <li>
 The file size required in the instructor document area is less than or equal to 300 KB.</li>
 </ul>
-     <img src="/img/student1.png" className='img-fluid' alt="" />  
+     <img src="/img/New-Admission.png" className='img-fluid' alt="New-Admission" />  
     </div>
   )
 }

@@ -26,7 +26,7 @@ export default function Teaching() {
           equal to 300 KB.
         </li>
       </ul>
-      <img src="/img/staff1.png" className="img-fluid" alt="" />
+      <img src="/img/Add-Teacher.png" className="img-fluid" alt="Add-Teacher" />
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function Promote() {
         <li>First add classes, and section to the configuration module.</li>
         <li>Select single student promotion and promote students</li>
       </ul>
-      <img src="/img/student5.png" className="img-fluid" alt="" />
+      <img src="/img/Promote-Student.png" className="img-fluid" alt="Promote-Student" />
     </div>
   );
 }

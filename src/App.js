@@ -209,130 +209,130 @@ function App() {
           <Route index element={<Navigate to="dashboard" />} />
             <Route path="dashboard" element={<Dashboard />} />
             {/* Reception start*/}
-            <Route path="visitor" element={<Visitors />} />
-            <Route path="complains" element={<Complains />} />
-            <Route path="dispatch" element={<Dispatch />} />
-            <Route path="frontoffice" element={<Front />} />
-            <Route path="pcall" element={<Phonecall />} />
-            <Route path="precieve" element={<Postalrecieve />} />
+            <Route path="visitors-meeting" element={<Visitors />} />
+            <Route path="online-complains-list" element={<Complains />} />
+            <Route path="postal-dispatch" element={<Dispatch />} />
+            <Route path="configure-front-office" element={<Front />} />
+            <Route path="phone-call-log" element={<Phonecall />} />
+            <Route path="postal-recieve" element={<Postalrecieve />} />
             {/* Reception end */}
 
             {/* Staff Start */}
-            <Route path="teaching" element={<Teaching />} />
-            <Route path="fedlist" element={<Feedbacklist />} />
-            <Route path="tstaff" element={<Nonteachingstaff />} />
-            <Route path="sreview" element={<Staffreview />} />
-            <Route path="stodos" element={<Todos />} />
-            <Route path="swithdraw" element={<Withdraw />} />
+            <Route path="teaching-staff" element={<Teaching />} />
+            <Route path="feedback-list" element={<Feedbacklist />} />
+            <Route path="non-teaching-staff" element={<Nonteachingstaff />} />
+            <Route path="staff-review" element={<Staffreview />} />
+            <Route path="staff-todos" element={<Todos />} />
+            <Route path="staff-withdraw" element={<Withdraw />} />
             {/* Staff End */}
 
             {/* Students Start */}
-            <Route path="alist" element={<Admilist />} />
-            <Route path="newadd" element={<Admission />} />
-            <Route path="feedbackrecord" element={<Fedbackrecord />} />
-            <Route path="frecord" element={<Frecords />} />
-            <Route path="onlineadd" element={<Onlineadmissions />} />
-            <Route path="passstudents" element={<Passout />} />
-            <Route path="prostudents" element={<Promote />} />
-            <Route path="studentreview" element={<Stureview />} />
-            <Route path="withstudents" element={<Witdraw />} />
+            <Route path="students-list" element={<Admilist />} />
+            <Route path="new-admission" element={<Admission />} />
+            <Route path="feedback-record" element={<Fedbackrecord />} />
+            <Route path="family-record" element={<Frecords />} />
+            <Route path="online-admissions" element={<Onlineadmissions />} />
+            <Route path="passout-students" element={<Passout />} />
+            <Route path="promote-students" element={<Promote />} />
+            <Route path="students-review" element={<Stureview />} />
+            <Route path="withdraw-students" element={<Witdraw />} />
             {/* Students End */}
 
             {/* Attendence Start */}
-            <Route path="leave" element={<Leave />} />
-            <Route path="sattendence" element={<Studentatt />} />
-            <Route path="staffatt" element={<Staffatt />} />
+            <Route path="leave-request" element={<Leave />} />
+            <Route path="student-attendance" element={<Studentatt />} />
+            <Route path="staff-attendance" element={<Staffatt />} />
             {/* Attendence End */}
 
             {/* Inventory Start */}
-            <Route path="issue" element={<Issue />} />
+            <Route path="issue-inventory" element={<Issue />} />
             <Route path="inventory" element={<Innventory />} />
-            <Route path="invoiceli" element={<Invoice />} />
-            <Route path="purchaseli" element={<Purchase />} />
-            <Route path="purchseinven" element={<Purchaseinv />} />
+            <Route path="invoice-list" element={<Invoice />} />
+            <Route path="purchase-list" element={<Purchase />} />
+            <Route path="purchase-inventory" element={<Purchaseinv />} />
             <Route path="supplier" element={<Supplier />} />
             {/* Inventory End */}
 
             {/* Fee Start */}
-            <Route path="recievefee" element={<Recieve />} />
-            <Route path="updatefeeli" element={<Updatefeeli />} />
-            <Route path="feecommitli" element={<Commitmentli />} />
-            <Route path="defaultstu" element={<Defaultst />} />
+            <Route path="recieve-fee" element={<Recieve />} />
+            <Route path="update-fee-list" element={<Updatefeeli />} />
+            <Route path="fee-comitment-list" element={<Commitmentli />} />
+            <Route path="default-students" element={<Defaultst />} />
             <Route path="discounts" element={<Discounts />} />
-            <Route path="staccadj" element={<Studentaccadj />} />
-            <Route path="management" element={<Management />} />
-            <Route path="refundpay" element={<Refundpay />} />
-            <Route path="scholorship" element={<Scholorship />} />
-            <Route path="updatefee" element={<Updatefee />} />
+            <Route path="student-account-adjust" element={<Studentaccadj />} />
+            <Route path="fine-management" element={<Management />} />
+            <Route path="refund-payment" element={<Refundpay />} />
+            <Route path="scholarship" element={<Scholorship />} />
+            <Route path="update-fee" element={<Updatefee />} />
             {/* Fee End */}
 
             {/* Accounts Cycle Start */}
-            <Route path="calender1" element={<Calender1 />} />
-            <Route path="printvouch" element={<Printvoucher />} />
-            <Route path="generatevouch" element={<Generatevoucher />} />
-            <Route path="salarycycle" element={<Salarycycle />} />
+            <Route path="calender" element={<Calender1 />} />
+            <Route path="print-vouchers" element={<Printvoucher />} />
+            <Route path="generate-vouchers" element={<Generatevoucher />} />
+            <Route path="salary-cycle" element={<Salarycycle />} />
             {/* Accounts Cycle End */}
 
             {/* Accounts Start */}
-            <Route path="staff" element={<Staff />} />
-            <Route path="student" element={<Student />} />
-            <Route path="supplieracc" element={<Supplieracc />} />
-            <Route path="withdrawamo" element={<Withdrawpay />} />
-            <Route path="familywise" element={<Familywise />} />
-            <Route path="salarydeduct" element={<Salarydeduct />} />
+            <Route path="staff-account" element={<Staff />} />
+            <Route path="students-account" element={<Student />} />
+            <Route path="supplier-account" element={<Supplieracc />} />
+            <Route path="withdraw-amount" element={<Withdrawpay />} />
+            <Route path="family-wise-account" element={<Familywise />} />
+            <Route path="salary-deduction" element={<Salarydeduct />} />
             {/* Accounts End */}
 
             {/* Exams Start */}
-            <Route path="configexams" element={<Configexams />} />
-            <Route path="configpapers" element={<Configpapers />} />
-            <Route path="datesheet" element={<Datesheet />} />
+            <Route path="configure-exams" element={<Configexams />} />
+            <Route path="configure-papers" element={<Configpapers />} />
+            <Route path="date-sheet" element={<Datesheet />} />
             {/* Exams End */}
 
             {/* Result Start */}
-            <Route path="addresult" element={<Add />} />
-            <Route path="resultlist" element={<List />} />
-            <Route path="subjectwise" element={<Subjectwise />} />
+            <Route path="add-result" element={<Add />} />
+            <Route path="result-list" element={<List />} />
+            <Route path="subject-wise-result" element={<Subjectwise />} />
             {/* Result End */}
 
-            {/* Student Start */}
-            <Route path="configcert" element={<Config />} />
-            <Route path="studentcard" element={<Studentcard />} />
-            <Route path="studntcerti" element={<Studentcerti />} />
-            <Route path="staffcerti" element={<Staffcerti />} />
-            <Route path="staffcard" element={<Staffcard />} />
-            {/* Student End */}
+            {/* Certificate Start */}
+            <Route path="configure-certificate" element={<Config />} />
+            <Route path="student-id-card" element={<Studentcard />} />
+            <Route path="student-certificate" element={<Studentcerti />} />
+            <Route path="staff-certificate" element={<Staffcerti />} />
+            <Route path="staff-id-card" element={<Staffcard />} />
+            {/* Certificate End */}
 
             {/* Accademics Start */}
-            <Route path="lesson" element={<Lesson />} />
-            <Route path="homework" element={<Homework />} />
-            <Route path="uploadmat" element={<Uploadmaterial />} />
-            <Route path="homeworkmar" element={<Homeworkmark />} />
-            <Route path="homeworkmarli" element={<Homeworkmarli />} />
-            <Route path="summerwork" element={<Summerwork />} />
-            <Route path="classtimetable" element={<Classtimetable />} />
+            <Route path="lesson-planning" element={<Lesson />} />
+            <Route path="home-work" element={<Homework />} />
+            <Route path="upload-material" element={<Uploadmaterial />} />
+            <Route path="home-work-marking" element={<Homeworkmark />} />
+            <Route path="home-work-marking-list" element={<Homeworkmarli />} />
+            <Route path="summer-home-work" element={<Summerwork />} />
+            <Route path="class-time-table" element={<Classtimetable />} />
             {/* Accademics End */}
 
             {/* LMS Start */}
             <Route path="courses" element={<Courses />} />
             <Route path="lecture" element={<Lecture />} />
-            <Route path="coursecat" element={<Coursecat />} />
+            <Route path="course-category" element={<Coursecat />} />
             {/* LMS End */}
 
             {/* Transport Start */}
-            <Route path="vehicle" element={<Vehicle />} />
-            <Route path="assignveh" element={<Assignveh />} />
+            <Route path="vehicles" element={<Vehicle />} />
+            <Route path="assign-vehicles" element={<Assignveh />} />
             <Route path="routes" element={<Routess />} />
             {/* Transport End */}
 
             {/* Expence Start */}
-            <Route path="addexpense" element={<Addexpense />} />
-            <Route path="manageexpense" element={<Manageexpen />} />
-            <Route path="expencecat" element={<Expencecate />} />
+            <Route path="add-expense" element={<Addexpense />} />
+            <Route path="manage-expense" element={<Manageexpen />} />
+            <Route path="expence-category" element={<Expencecate />} />
             {/* Expence End */}
 
             {/* Assets Start */}
             <Route path="assets" element={<Assets />} />
-            <Route path="assettype" element={<Assetstype />} />
+            <Route path="asset-type" element={<Assetstype />} />
             {/* Assets End */}
 
             {/* Announcements Start */}
@@ -346,37 +346,37 @@ function App() {
             {/* Communication End */}
 
             {/* Admition Start */}
-            <Route path="classwiseques" element={<Classwiseque />} />
-            <Route path="questionbank" element={<Questionbank />} />
+            <Route path="class-wise-question" element={<Classwiseque />} />
+            <Route path="question-bank" element={<Questionbank />} />
             {/* Admition End */}
 
             {/* Sports Start */}
-            <Route path="typesp" element={<Typesp />} />
-            <Route path="sportsdeta" element={<Sportsdeta />} />
+            <Route path="sports-type" element={<Typesp />} />
+            <Route path="sports-detail" element={<Sportsdeta />} />
             {/* Sports End */}
 
             {/* Management Start */}
-            <Route path="usersmanage" element={<Users />} />
-            <Route path="rolesmanage" element={<Roles />} />
+            <Route path="users" element={<Users />} />
+            <Route path="roles" element={<Roles />} />
             {/* Management End */}
 
             {/* Library Start */}
-            <Route path="librarybook" element={<Librarybook />} />
-            <Route path="issuebook" element={<Issuevooks />} />
+            <Route path="library-books" element={<Librarybook />} />
+            <Route path="issue-books" element={<Issuevooks />} />
             {/* Library End */}
 
             {/* Generator Start */}
-            <Route path="configchap" element={<Configchap />} />
-            <Route path="configtopic" element={<Configtopic />} />
-            <Route path="configques" element={<Configques />} />
-            <Route path="papergene" element={<Papergen />} />
+            <Route path="configure-chapter" element={<Configchap />} />
+            <Route path="configure-topic" element={<Configtopic />} />
+            <Route path="configure-question" element={<Configques />} />
+            <Route path="paper-generate" element={<Papergen />} />
             {/* Generator End */}
 
             {/* Website Start */}
             <Route path="home" element={<Home2 />} />
-            <Route path="aboutus" element={<Aboutus />} />
+            <Route path="about-us" element={<Aboutus />} />
             <Route path="gallery" element={<Gallery />} />
-            <Route path="viewsite" element={<Viewsite />} />
+            <Route path="visit-website" element={<Viewsite />} />
             <Route path="events" element={<Events />} />
             {/* Website End */}
 
@@ -385,48 +385,48 @@ function App() {
             <Route path="sections" element={<Sections />} />
             <Route path="nationality" element={<Nationality />} />
             <Route path="religion" element={<Releigion />} />
-            <Route path="asignclass" element={<Assignclass />} />
+            <Route path="assign-classes" element={<Assignclass />} />
             <Route path="designation" element={<Designations />} />
             <Route path="subject" element={<Subject />} />
-            <Route path="assignsub" element={<Assignsub />} />
-            <Route path="siblingdic" element={<Siblingdic />} />
-            <Route path="schooltiming" element={<Schooltiming />} />
-            <Route path="schoolmanage" element={<Schoolsmanage />} />
-            <Route path="configschol" element={<Confischol />} />
-            <Route path="feerecipts" element={<Feerecipts />} />
-            <Route path="accesscontrol" element={<Accesscont />} />
-            <Route path="configfee" element={<Configfee />} />
-            <Route path="configsalary" element={<Confisalary />} />
+            <Route path="assign-subject" element={<Assignsub />} />
+            <Route path="sibling-discount" element={<Siblingdic />} />
+            <Route path="school-timing" element={<Schooltiming />} />
+            <Route path="school-manage" element={<Schoolsmanage />} />
+            <Route path="configure-scholarship" element={<Confischol />} />
+            <Route path="configure-fee-recipients" element={<Feerecipts />} />
+            <Route path="access-control" element={<Accesscont />} />
+            <Route path="configure-fee" element={<Configfee />} />
+            <Route path="configure-salary" element={<Confisalary />} />
             {/* configuration End */}
 
             {/* Reports Start */}
-            <Route path="stuatt" element={<Studentatt2/>} />
-            <Route path="stafatt" element={<Staffatt2/>} />
-            <Route path="sreport" element={<Studentreport/>} />
-            <Route path="teacherrep" element={<Teachersrepor/>} />
-            <Route path="staffacc" element={<Staffacc/>} />
-            <Route path="saccounts" element={<Studentaccounts/>} />
-            <Route path="srecieve" element={<Studentrecieve/>} />
-            <Route path="staffrecieve" element={<Staffreceive/>} />
-            <Route path="ledger" element={<Ledger/>} />
-            <Route path="feereport" element={<Feereport/>} />
-            <Route path="transfeerep" element={<Transportfeerep/>} />
-            <Route path="inventoryrep" element={<Inventoryfeerep/>} />
-            <Route path="detailedrep" element={<Feedetailrep/>} />
-            <Route path="salarypaid" element={<Salarypaid/>} />
-            <Route path="sfeedback" element={<Studentfed/>} />
-            <Route path="teacherfedback" element={<Teacherfeedback/>} />
-            <Route path="postalreport" element={<Postalreport/>} />
-            <Route path="visitorsrep" element={<Visitorsrep/>} />
-            <Route path="studentrevrep" element={<Studentrevrep/>} />
-            <Route path="staffrevrep" element={<Staffrevrep/>} />
-            <Route path="leaverep" element={<Leaverep/>} />
-            <Route path="inventoryreport" element={<Innventoryrep/>} />
-            <Route path="libraryrep" element={<Libraryrep/>} />
-            <Route path="expencerep" element={<Expencerep/>} />
-            <Route path="daybook" element={<Daybook/>} />
-            <Route path="pl" element={<Profitloss/>} />
-            <Route path="transreport" element={<Transportreport/>} />
+            <Route path="student-attendnce" element={<Studentatt2/>} />
+            <Route path="staff-attendnce" element={<Staffatt2/>} />
+            <Route path="students-report" element={<Studentreport/>} />
+            <Route path="staff-report" element={<Teachersrepor/>} />
+            <Route path="staff-accounts" element={<Staffacc/>} />
+            <Route path="student-accounts" element={<Studentaccounts/>} />
+            <Route path="student-recieveables" element={<Studentrecieve/>} />
+            <Route path="staff-recieveables" element={<Staffreceive/>} />
+            <Route path="general-ledger" element={<Ledger/>} />
+            <Route path="fee-report" element={<Feereport/>} />
+            <Route path="transport-fee-report" element={<Transportfeerep/>} />
+            <Route path="inventory-fee-repport" element={<Inventoryfeerep/>} />
+            <Route path="fee-detailed-report" element={<Feedetailrep/>} />
+            <Route path="salary-paid" element={<Salarypaid/>} />
+            <Route path="student-feedback" element={<Studentfed/>} />
+            <Route path="teacher-feedback" element={<Teacherfeedback/>} />
+            <Route path="postal-report" element={<Postalreport/>} />
+            <Route path="visitors-report" element={<Visitorsrep/>} />
+            <Route path="student-review-report" element={<Studentrevrep/>} />
+            <Route path="staff-review-report" element={<Staffrevrep/>} />
+            <Route path="leave-report" element={<Leaverep/>} />
+            <Route path="inventory-report" element={<Innventoryrep/>} />
+            <Route path="library-report" element={<Libraryrep/>} />
+            <Route path="expense-report" element={<Expencerep/>} />
+            <Route path="day-book" element={<Daybook/>} />
+            <Route path="profit & loss" element={<Profitloss/>} />
+            <Route path="transreport-report" element={<Transportreport/>} />
             {/* Reports End */}
             
           </Route>

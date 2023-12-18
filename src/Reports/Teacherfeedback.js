@@ -14,7 +14,7 @@ export default function Teacherfeedback() {
         the staff detail and the rating stars of that staff. You can search any
         staff by select their branch, class, section and name.
       </p>
-      <img src="/img/report16.png" className="img-fluid" alt="" />
+      <img src="/img/Teacher-Feedback.png" className="img-fluid" alt="" />
     </div>
   );
 }

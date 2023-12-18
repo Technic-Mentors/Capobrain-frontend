@@ -17,7 +17,6 @@ function generateXml(urls) {
       ${urls.map(url => `<url><loc>${url}</loc></url>`).join('\n')}
     </urlset>
   `;
-
   return xml;
 }
 

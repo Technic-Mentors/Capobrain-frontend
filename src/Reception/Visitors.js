@@ -33,7 +33,7 @@ export default function Visitors() {
         <li>Non-mandatory fields are optional and can be skipped</li>
       </ul>
 
-      <img src="/img/recep1.jpg" className="img-fluid" alt="" />
+      <img src="/img/Add-Visitors-Meeting.jpg" className="img-fluid" alt="Add-Visitors-Meeting" />
     </div>
   );
 }
